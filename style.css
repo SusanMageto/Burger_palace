@@ -1,4 +1,12 @@
+.float-container {
+  padding: 20px;
+}
+
+
 .child {
-background-color: #E1EBE6;
 width: 30%;
+background-color: #E1EBE6;
+float: left;
+padding: 20px;
+border: 2px sienna;
 }

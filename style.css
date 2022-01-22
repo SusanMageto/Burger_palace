@@ -4,9 +4,11 @@
 
 
 .child {
-width: 30%;
+width: 20%;
+height: 100px;
 background-color: #E1EBE6;
 float: left;
-padding: 20px;
-border: 2px sienna;
+padding: 50px;
+border-style: solid;
+margin: 10px;
 }

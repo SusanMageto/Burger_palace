@@ -12,3 +12,15 @@ padding: 50px;
 border-style: solid;
 margin: 10px;
 }
+.menu {
+  padding: 20px;
+}
+.menu-child {
+width: 25%;
+height: 100%;
+background-color: #E1EBE6;
+float: left;
+padding: 30px;
+/*border-style: solid;*/
+margin: 10px;
+}

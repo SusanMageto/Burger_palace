@@ -22,7 +22,6 @@ display: block;
 background-color: #E1EBE6;
 float: left;
 padding: 2px;
-border-radius: 20;
 /*border-style: solid;*/
 margin:10px;
 }
@@ -60,4 +59,9 @@ width: 50%
   background-color:#F6B400;
   float: left;
   padding: 10px;
+}
+.compart {
+  width: 50%;
+  height: 20%;
+  float: left;
 }

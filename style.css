@@ -49,19 +49,7 @@ padding: 20px;
 border-style: solid;
 margin: 10px;
 }
-.menu {
-  padding: 20px;
-}
-.menu-child {
-width: 30%;
-height: 50%;
-display: block;
-background-color: #E1EBE6;
-float: left;
-padding: 2px;
-/*border-style: solid;*/
-margin:10px;
-}
+
 /* .float-decker{
   padding: 20px;
   width: 30px;
@@ -77,6 +65,9 @@ width: 50%
 .column {
   float: left;
   width: 50%;
+}
+.column img {
+  transform: translate(-400px, 370px);
 }
 .row:after {
   content:"";
@@ -121,6 +112,27 @@ width: 50%
 #bur-logo {
   color: #F6B400;
 }
-section::after {
-  
+.child {
+  width: fit-content;
+  height: fit-content;
+  border-color: white;
+  border-radius: 5%;
+}
+.menu-child {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 5px;
+  border-style: 10px;
+  border: white;
+  padding: 10px;
+}
+.float-container {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }

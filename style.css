@@ -50,3 +50,13 @@ width: 50%
   font-size: 5vw;
   color: #F6B400;
 }
+.parent-mobile{
+  background-color: #F6B400;
+}
+.mobile {
+  width: 30%;
+  height: 50%;
+  background-color:#F6B400;
+  float: left;
+  padding: 10px;
+}

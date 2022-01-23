@@ -1,8 +1,40 @@
+nav{
+  height: 70px;
+  width: 100%;
+}
+label.logo{
+  color: #33FF39;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  font-size: 40px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+  
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+a.active,a:hover{
+  background: #F6B400;
+  transition: .5s;
+}
+/* end of nav bar */
 .float-container {
   padding: 20px;
 }
-
-
 .child {
 width: 20%;
 height: 100px;
@@ -64,4 +96,7 @@ width: 50%
   width: 50%;
   height: 20%;
   float: left;
+}
+section::after {
+  
 }

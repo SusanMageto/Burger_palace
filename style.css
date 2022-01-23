@@ -46,3 +46,7 @@ width: 50%
   display: table;
   clear: both;
 }
+.colar {
+  font-size: 5vw;
+  color: #F6B400;
+}

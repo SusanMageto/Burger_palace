@@ -8,7 +8,7 @@ width: 20%;
 height: 100px;
 background-color: #E1EBE6;
 float: left;
-padding: 50px;
+padding: 20px;
 border-style: solid;
 margin: 10px;
 }
@@ -16,11 +16,12 @@ margin: 10px;
   padding: 20px;
 }
 .menu-child {
-width: 25%;
-height: 100%;
+width: 30%;
+height: 50%;
+display: block;
 background-color: #E1EBE6;
 float: left;
-padding: 30px;
+padding: 2px;
 /*border-style: solid;*/
-margin: 10px;
+margin:10px;
 }

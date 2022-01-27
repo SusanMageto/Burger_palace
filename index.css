@@ -97,10 +97,85 @@ color: #ffc12f;
   flex-direction: column;
   align-items: center;
 }
+.double-burger p {
+  text-align: center;
+}
 .menu {
   text-align: center;
 }
 hr {
   border: solid #fa952d;
   width: 5%;
+}
+#combo1 {
+  height: 60vh;
+  left: 50px;
+}
+#combo2 {
+  height: 60vh;
+  position: relative;
+  right: 300px;
+}
+.double {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+  height: 80vh;
+  background-color:  #E1EBE6;
+}
+.double-burger2 {
+  float: right;
+}
+.double p {
+  padding: 20px 0;
+  font-size: 20px;
+}
+.taste {
+  padding: 20px;
+}
+.mobicard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F6B400;
+}
+.mobile img {
+  height: 50px;
+  padding-left: 20px;
+}
+.mobicard2 img {
+  padding: 0 20px;
+}
+.mobile p{
+  font-weight: bold;
+  font-size: 40px;
+  padding: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sitemap ul li{
+  list-style: none;
+}
+.sitemap ul li a {
+  text-decoration: none ;
+  color: black;
+}
+.logo2 span {
+  color: #F6B400;
+}
+.logo2 h2 {
+  display: inline;
+}
+.Newsletter button {
+  background-color: #F6B400;
+  color: white;
+  padding: 10px;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
 }

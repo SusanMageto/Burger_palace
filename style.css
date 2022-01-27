@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap');
 nav{
   height: 70px;
@@ -43,7 +63,7 @@ a.active,a:hover{
   transition: .5s;
 }
 /* end of nav bar */
-.float-container {
+/*.float-container {
   padding: 20px;
 }
 .child {
@@ -68,7 +88,7 @@ margin: 10px;
 .decker-burger {
 width: 50%
 } */
-.column {
+/*.column {
   float: left;
   width: 50%;
 }
@@ -134,8 +154,9 @@ width: 50%
   height: 100%;
   float: left;
   margin: 5px;
-  border-style: 10px;
+  border-style: solid;
   border: white;
+
   padding: 5px;
 }
 .menu-child img {

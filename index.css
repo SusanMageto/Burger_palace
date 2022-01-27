@@ -46,14 +46,33 @@
 .words button {
   background-color: #ffc12f;
   padding: 10px;
-  
+  border-radius: 30px 20px 0 30px;
+  color: white; 
 }
-.three img{
+.fast img, .delicious img, .quality img {
   height: 50px;
+  margin: 0 auto;
+  align-items: center;
 }
+
 .three {
   display: flex;
   flex-direction: row;
+}
+.three  p{
+  text-align: center;
+}
+.three h2 {
+  text-align: center;
+  color: #561212;
+}
+.quality, .fast, .delicious {
+  border: 1px solid #561212; 
+  border-radius: 20px; 
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .menu span {
   color: #ffc12f;
